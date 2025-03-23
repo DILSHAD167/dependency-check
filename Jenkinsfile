@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven'  // Ensure Maven is installed in Jenkins
+        maven 'Maven3'  // Ensure Maven is installed in Jenkins
     }
     environment {
         DC_PATH = 'C:\\dependency-check\\bin\\dependency-check.bat'  // Change if using a different path
